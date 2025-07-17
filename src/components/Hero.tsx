@@ -40,8 +40,12 @@ export const Hero = ({ onGetStarted }: { onGetStarted: () => void }) => {
             Experience the Demo
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button variant="glass" size="lg">
-            View Technical Details
+          <Button 
+            variant="glass" 
+            size="lg"
+            onClick={() => window.open('/style2hierarchy', '_blank')}
+          >
+            View Style2Hierarchy Details
           </Button>
         </div>
 
